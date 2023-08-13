@@ -110,7 +110,6 @@ def draw_plot(df, x_count: int, y_count: int, font_size: int, button_first: str,
     x = pd.to_datetime(df.dt)
     y = round(df.rate, 2)
 
-    # размер шрифта на графике
     def get_axis_X(df=df, x_count=x_count, dt_format=dt_format) -> tuple:
         # подготовка шкалы и подписей для оси X
 
