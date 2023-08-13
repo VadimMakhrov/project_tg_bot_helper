@@ -21,7 +21,8 @@ params_default: dict = {'button_valutes': buttons_first_valutes[0], \
               'night_theme': False, \
               'show_min_max': True, \
               'x_count': 24, \
-              'y_count': 10}
+              'y_count': 10,
+              'font_size': 18}
 
 
 params_current: dict = {'valutes': params_default['button_valutes'], \

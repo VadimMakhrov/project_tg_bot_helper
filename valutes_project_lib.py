@@ -96,7 +96,7 @@ def get_data_from_db(button_first: str, button_second: str):
     return df
 
 
-def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
+def draw_plot(df, x_count: int, y_count: int, font_size: int, button_first: str, button_second: str, \
               show_min_max_plot: bool, \
               night_theme_on: bool) -> bytes:
     # устанавливаем формат даты, отображающийся на графике
@@ -110,6 +110,7 @@ def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
     x = pd.to_datetime(df.dt)
     y = round(df.rate, 2)
 
+    # размер шрифта на графике
     def get_axis_X(df=df, x_count=x_count, dt_format=dt_format) -> tuple:
         # подготовка шкалы и подписей для оси X
 
@@ -167,7 +168,7 @@ def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
 
         return (yticks, ylabels)
 
-    def show_min_max_func(activate=show_min_max_plot, x=x, y=y, night_theme_on=night_theme_on):
+    def show_min_max_func(activate=show_min_max_plot, x=x, y=y, night_theme_on=night_theme_on, fontsize=font_size):
         if activate:
             if night_theme_on == False:
                 color_line = 'blue'
@@ -182,17 +183,17 @@ def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
             plt.axhline(y.max()).set(linestyle='-', color=color_line, label='max value', linewidth=0.7)
             plt.axvline(x[y.idxmin()]).set(linestyle='--', color=color_line, linewidth=1)
             plt.axvline(x[y.idxmax()]).set(linestyle='-', color=color_line, linewidth=1)
-            plt.legend(facecolor=facecolor_legend, labelcolor=labelcolor_legend)
+            plt.legend(facecolor=facecolor_legend, labelcolor=labelcolor_legend, fontsize=fontsize)
         else:
             pass
 
-    def night_theme(activate=night_theme_on, button_first=button_first, button_second=button_second):
+    def night_theme(activate=night_theme_on, button_first=button_first, button_second=button_second, fontsize=font_size):
         if activate:
             plt.tick_params(colors='white')
             fig.set_facecolor('#1b191a')
             axes.set_facecolor('#1b191a')
             plt.grid(color='#706b6b')
-            plt.title(button_first, color='white')
+            plt.title(button_first, color='white', fontsize=fontsize)
             plt.xlabel(button_second, color='white').set_fontweight('bold')
         else:
             pass
@@ -202,13 +203,13 @@ def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
         plt.plot(x, y, color='red', linewidth=2)
     else:
         plt.plot(x, y, color='red')
-    plt.title(button_first)
+    plt.title(button_first, fontsize=font_size)
     plt.xlabel(button_second).set_fontweight('bold')
 
     x_ticks, x_label = get_axis_X(df, x_count, dt_format)
     y_ticks, y_label = get_axis_Y(df, y_count)
-    plt.xticks(ticks=x_ticks, labels=x_label)
-    plt.yticks(ticks=y_ticks, labels=y_label)
+    plt.xticks(ticks=x_ticks, labels=x_label, fontsize=font_size)
+    plt.yticks(ticks=y_ticks, labels=y_label, fontsize=font_size)
 
     # выключает каждую вторую подпись по оси X
     xax = axes.xaxis
@@ -216,6 +217,7 @@ def draw_plot(df, x_count, y_count, button_first: str, button_second: str, \
     for label in xax.get_ticklabels():
         if counter % 2 != 0:
             label.set_visible(False)
+            label.set_fontsize(20)
         counter += 1
 
 
