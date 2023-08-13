@@ -31,9 +31,9 @@ def help(message):
     if current_position['position'] == 'main_menu':
         bot.send_message(chat_id=message.chat.id, text='Take your choice')
     elif current_position['position'] == 'Valutes':
-        bot.send_message(chat_id=message.chat.id, text='Night OFF/Night ON - change plot theme\n \\'
-                                                       'Drawing - Drawing plot\n \\'
-                                                       'Change parameters - you can choose your parameters\n \\'
+        bot.send_message(chat_id=message.chat.id, text='Night OFF/Night ON - change plot theme\n' \
+                                                       'Drawing - Drawing plot\n' \
+                                                       'Change parameters - you can choose your parameters\n' \
                                                        'Come back - back to the main menu')
 
 @bot.message_handler(content_types=['text'])
