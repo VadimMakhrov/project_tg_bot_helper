@@ -1,0 +1,1 @@
+api_key = 'KEY API FROM https://stormglass.io/'

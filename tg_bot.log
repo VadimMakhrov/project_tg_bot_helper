@@ -1,0 +1,99 @@
+2023-08-14 00:23:11,564 INFO object: <telebot.TeleBot object at 0x000002288928C1C0>, type: <class 'telebot.TeleBot'>
+2023-08-14 00:23:18,347 INFO message.chat.id: *********, user: USER_NAME, text: /start
+2023-08-14 00:23:18,347 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:23:18,759 INFO markup.keyboard: [[{'text': 'Weather'}, {'text': 'Valutes'}]]
+2023-08-14 00:23:40,435 INFO message.chat.id: *********, user: USER_NAME, text: /help
+2023-08-14 00:23:40,435 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:23:56,332 INFO message.chat.id: *********, user: USER_NAME, text: Weather
+2023-08-14 00:23:56,332 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:24:00,738 INFO picture type: <class 'list'>
+2023-08-14 00:24:17,199 INFO message.chat.id: *********, user: USER_NAME, text: Valutes
+2023-08-14 00:24:17,200 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:24:17,200 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': False}
+2023-08-14 00:24:18,263 INFO picture type: <class 'bytes'>
+2023-08-14 00:24:19,204 INFO markup.keyboard: [[{'text': 'Night OFF'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:24:53,430 INFO message.chat.id: *********, user: USER_NAME, text: Night OFF
+2023-08-14 00:24:53,431 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:24:53,431 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:24:54,204 INFO picture type: <class 'bytes'>
+2023-08-14 00:24:54,550 INFO markup.keyboard: [[{'text': 'Night ON'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:25:04,000 INFO message.chat.id: *********, user: USER_NAME, text: /help
+2023-08-14 00:25:04,001 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:10,728 INFO message.chat.id: *********, user: USER_NAME, text: Drawing
+2023-08-14 00:25:10,729 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:10,729 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:25:11,516 INFO picture type: <class 'bytes'>
+2023-08-14 00:25:22,727 INFO message.chat.id: *********, user: USER_NAME, text: Change parameters
+2023-08-14 00:25:22,728 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:22,728 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:25:22,870 INFO markup.keyboard: [[{'text': 'Default'}, {'text': 'GEL/RUB'}, {'text': 'USD/GEL'}], [{'text': 'USD/RUB'}, {'text': 'EUR/GEL'}, {'text': 'EUR/RUB'}]]
+2023-08-14 00:25:28,284 INFO message.chat.id: *********, user: USER_NAME, text: USD/RUB
+2023-08-14 00:25:28,285 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:25:28,285 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:25:28,286 INFO params_current: {'valutes': 'USD/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:25:28,426 INFO markup.keyboard: [[{'text': 'Default'}, {'text': '1 day'}, {'text': '7 day'}], [{'text': '14 day'}, {'text': '1 month'}, {'text': '3 month'}], [{'text': '6 month'}, {'text': '1 year'}]]
+2023-08-14 00:25:30,615 INFO message.chat.id: *********, user: USER_NAME, text: 3 month
+2023-08-14 00:25:30,616 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:25:30,616 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:30,617 INFO params_current: {'valutes': 'USD/RUB', 'period': '3 month', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:25:31,448 INFO picture type: <class 'bytes'>
+2023-08-14 00:25:31,863 INFO markup.keyboard: [[{'text': 'Night ON'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:25:39,678 INFO message.chat.id: *********, user: USER_NAME, text: Change parameters
+2023-08-14 00:25:39,679 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:39,680 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:25:39,913 INFO markup.keyboard: [[{'text': 'Default'}, {'text': 'GEL/RUB'}, {'text': 'USD/GEL'}], [{'text': 'USD/RUB'}, {'text': 'EUR/GEL'}, {'text': 'EUR/RUB'}]]
+2023-08-14 00:25:45,684 INFO message.chat.id: *********, user: USER_NAME, text: EUR/RUB
+2023-08-14 00:25:45,685 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:25:45,685 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:25:45,685 INFO params_current: {'valutes': 'EUR/RUB', 'period': '3 month', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:25:45,999 INFO markup.keyboard: [[{'text': 'Default'}, {'text': '1 day'}, {'text': '7 day'}], [{'text': '14 day'}, {'text': '1 month'}, {'text': '3 month'}], [{'text': '6 month'}, {'text': '1 year'}]]
+2023-08-14 00:25:46,899 INFO message.chat.id: *********, user: USER_NAME, text: 1 day
+2023-08-14 00:25:46,900 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:25:46,900 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:46,900 INFO params_current: {'valutes': 'EUR/RUB', 'period': '1 day', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:25:46,949 INFO picture type: <class 'NoneType'>
+2023-08-14 00:25:47,102 INFO markup.keyboard: [[{'text': 'Night ON'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:25:51,171 INFO message.chat.id: *********, user: USER_NAME, text: Night ON
+2023-08-14 00:25:51,171 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:25:51,171 INFO params_current: {'valutes': 'EUR/RUB', 'period': '1 day', 'show_min_max_plot': True, 'night_theme': False}
+2023-08-14 00:25:51,187 INFO picture type: <class 'NoneType'>
+2023-08-14 00:25:51,322 INFO markup.keyboard: [[{'text': 'Night OFF'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:26:00,722 INFO message.chat.id: *********, user: USER_NAME, text: Change parameters
+2023-08-14 00:26:00,723 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:00,723 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:26:00,875 INFO markup.keyboard: [[{'text': 'Default'}, {'text': 'GEL/RUB'}, {'text': 'USD/GEL'}], [{'text': 'USD/RUB'}, {'text': 'EUR/GEL'}, {'text': 'EUR/RUB'}]]
+2023-08-14 00:26:03,001 INFO message.chat.id: *********, user: USER_NAME, text: GEL/RUB
+2023-08-14 00:26:03,002 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:26:03,002 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:26:03,003 INFO params_current: {'valutes': 'GEL/RUB', 'period': '1 day', 'show_min_max_plot': True, 'night_theme': False}
+2023-08-14 00:26:03,195 INFO markup.keyboard: [[{'text': 'Default'}, {'text': '1 day'}, {'text': '7 day'}], [{'text': '14 day'}, {'text': '1 month'}, {'text': '3 month'}], [{'text': '6 month'}, {'text': '1 year'}]]
+2023-08-14 00:26:04,310 INFO message.chat.id: *********, user: USER_NAME, text: Default
+2023-08-14 00:26:04,310 INFO current_position: {'position': 'Valutes', 'layer': 2}
+2023-08-14 00:26:04,311 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:04,311 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': False}
+2023-08-14 00:26:05,188 INFO picture type: <class 'bytes'>
+2023-08-14 00:26:05,517 INFO markup.keyboard: [[{'text': 'Night OFF'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:26:12,083 INFO message.chat.id: *********, user: USER_NAME, text: Night OFF
+2023-08-14 00:26:12,083 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:12,083 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': True}
+2023-08-14 00:26:12,943 INFO picture type: <class 'bytes'>
+2023-08-14 00:26:14,344 INFO markup.keyboard: [[{'text': 'Night ON'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:26:19,850 INFO message.chat.id: *********, user: USER_NAME, text: Change parameters
+2023-08-14 00:26:19,851 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:19,851 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:26:20,001 INFO markup.keyboard: [[{'text': 'Default'}, {'text': 'GEL/RUB'}, {'text': 'USD/GEL'}], [{'text': 'USD/RUB'}, {'text': 'EUR/GEL'}, {'text': 'EUR/RUB'}]]
+2023-08-14 00:26:21,739 INFO message.chat.id: *********, user: USER_NAME, text: Default
+2023-08-14 00:26:21,739 INFO current_position: {'position': 'Valutes', 'layer': 1}
+2023-08-14 00:26:21,739 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:21,740 INFO params_current: {'valutes': 'GEL/RUB', 'period': '14 day', 'show_min_max_plot': True, 'night_theme': False}
+2023-08-14 00:26:22,594 INFO picture type: <class 'bytes'>
+2023-08-14 00:26:23,254 INFO markup.keyboard: [[{'text': 'Night ON'}, {'text': 'Drawing'}, {'text': 'Change parameters'}], [{'text': 'Come back'}]]
+2023-08-14 00:26:28,588 INFO message.chat.id: *********, user: USER_NAME, text: Come back
+2023-08-14 00:26:28,589 INFO current_position: {'position': 'Valutes', 'layer': 0}
+2023-08-14 00:26:28,589 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:26:28,721 INFO markup.keyboard: [[{'text': 'Weather'}, {'text': 'Valutes'}]]
+2023-08-14 00:26:43,128 INFO message.chat.id: *********, user: USER_NAME, text: Weather
+2023-08-14 00:26:43,129 INFO current_position: {'position': 'main_menu', 'layer': 0}
+2023-08-14 00:26:48,447 INFO picture type: <class 'list'>
+2023-08-14 00:27:03,236 ERROR Infinity polling: polling exited
+2023-08-14 00:27:03,236 ERROR Break infinity polling
