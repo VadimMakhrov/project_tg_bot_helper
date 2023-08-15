@@ -45,6 +45,7 @@ def func(message):
         params_current['period'] = params_default['button_period']
         params_current['show_min_max_plot'] = params_default['show_min_max']
         params_current['night_theme'] = params_default['night_theme']
+        valutes_menu[0] = 'Night OFF'
         log.log_params_current(params_current)
         picture, caption = valutes_painter(valutes=params_current['valutes'], \
                                            period=params_current['period'], \
